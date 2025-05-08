@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.fondo-1
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -225,7 +225,7 @@
           h5 Figura 2.
           span  Elementos de la NIC 2
         img(src='@/assets/curso/temas/19.svg', alt='')
-    .p-5(style="background-color: #F3F0EA")
+    .p-5(style="background-color: #F3F0EA").mb-5
       .row.justify-content-center.align-items-center
         .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.svg', alt='')
         .col-lg-10
@@ -364,7 +364,7 @@
                 li.d-flex
                   i.fas.fa-angle-right
                   p.mb-0 #[b CIF:] Depreciación y mantenimiento de la máquina, servicios públicos de la planta de producción, supervisores, jefes de planta.
-    p.mb-0 A continuación, se profundizará en los elementos del costo.
+    p.mb-5 A continuación, se profundizará en los elementos del costo.
     .titulo-tres: h3 Materia prima y/o material directo
     p.mb-4 Materia prima y/o material directo
     TabsB.color-acento-contenido.mb-5
@@ -384,7 +384,7 @@
               br
               |En general, “material” comprende todos aquellos artículos en su estado natural o transformado son los elementos que sirven para la confección o manufactura de un artículo nuevo y que pueden ser perfectamente medibles y por esta razón son cargables a una unidad identificada; por lo tanto, es el primer elemento del costo de producción.
     .titulo-tres: h3 Mano de obra
-    div(style="background-color: #DDEFFD ")
+    div(style="background-color: #DDEFFD ").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-7: img(src='@/assets/curso/temas/34.png', alt='')
         .col-lg-7
